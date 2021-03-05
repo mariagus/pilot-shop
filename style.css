@@ -32,11 +32,12 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .number {
+  .number, .divider {
 	  display: none;
   }
   .nav-links {
 	  flex-wrap: wrap-reverse;
+	  font-size: 0.8rem;
   }
 }
 
