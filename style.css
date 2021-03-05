@@ -31,8 +31,12 @@ body {
 	border-color: #e0e0e0;
 }
 
-@media only screen and (max-width: 900px) {
-  .top-nav {
+@media only screen and (max-width: 600px) {
+  .number {
+	  display: none;
+  }
+  .nav-links {
+	  flex-wrap: wrap-reverse;
   }
 }
 
