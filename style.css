@@ -75,6 +75,13 @@ body {
 }
 
 .banner-content {
+	text-align: center;
 	
+}
+
+.banner-content h1 {
+	font-size: 5rem;
+	letter-spacing: 1rem;
+	color: white;
 }
 
