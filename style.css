@@ -4,25 +4,35 @@
 
 body {
 	margin: 0;
-	font-family: 'Heebo', sans-serif;
+	font-family: sans-serif;
+	font-weight: bold;
 	letter-spacing: 1px;
 }
 
 .top-nav{
 	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	padding: 1%;
+	justify-content: space-around;
 	font-size: 15px;
-	background-color: #f5fffe;
-	color: #a1a1a1;
+	background-color: #f5f5f7;
+	
 }
 
 .nav-links {
 	display: flex;
-	
 }
 
 .nav-links a, .search, .number{
-	padding: 5px;
+	padding: 15px;
+	color: #bababa;
 }
+
+.divider {
+	border-left: 1px solid;
+	border-color: #e0e0e0;
+}
+
+@media only screen and (max-width: 900px) {
+  .top-nav {
+  }
+}
+
