@@ -13,11 +13,14 @@ body {
 	justify-content: space-between;
 	margin: 0 auto;
 	padding: 1%;
-	font-size: 0.9rem;
+	font-size: 15px;
+	background-color: #f5fffe;
+	color: #a1a1a1;
 }
 
 .nav-links {
 	display: flex;
+	
 }
 
 .nav-links a, .search, .number{
