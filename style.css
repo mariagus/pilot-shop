@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+	letter-spacing: 1px;
+}
+
+.top-nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 1%;
+	font-size: 0.9rem;
+}
+
+.nav-links {
+	display: flex;
+}
+
+.nav-links a, .search, .number{
+	padding: 5px;
+}
