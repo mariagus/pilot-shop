@@ -66,3 +66,15 @@ body {
 	border: 2px solid black;
 }
 
+.banner {
+	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.banner-content {
+	
+}
+
