@@ -17,7 +17,7 @@ body {
 	
 }
 
-.nav-links, .number, .bag {
+.nav-links, .number{
 	display: flex;
 }
 
@@ -25,13 +25,9 @@ body {
 	padding: 15px;
 	color: #bababa;
 }
-
-.bag {
-	justify-self: center;
-	margin-right: 10px;
-	margin-left: 10px;
+.bag{
+	margin-left: 15px;
 }
-
 .divider {
 	border-left: 1px solid;
 	border-color: #e0e0e0;
