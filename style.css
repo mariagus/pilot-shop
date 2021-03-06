@@ -12,18 +12,24 @@ body {
 .top-nav{
 	display: flex;
 	justify-content: space-around;
-	font-size: 15px;
+	font-size: 14px;
 	background-color: #f5f5f7;
 	
 }
 
-.nav-links {
+.nav-links, .number, .bag {
 	display: flex;
 }
 
 .nav-links a, .search, .number{
 	padding: 15px;
 	color: #bababa;
+}
+
+.bag {
+	justify-self: center;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .divider {
@@ -63,7 +69,7 @@ body {
 	letter-spacing: 1px;
 }
 
-.nav-buttons button:hover {
+.nav-buttons button:hover, button.home {
 	border: 2px solid black;
 }
 
