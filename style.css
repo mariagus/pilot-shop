@@ -59,7 +59,8 @@ body {
 	padding: 15px;
 	background: transparent;
 	border: 2px solid transparent;
-	margin: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 	font-size: 1rem;
 	font-weight: bold;
 	letter-spacing: 1px;
