@@ -22,7 +22,9 @@ body {
 }
 
 .number {
-	width: 265px;
+	padding-left: 50px;
+	padding-right: 180px;
+	width: 350px;
 }
 
 .nav-links a, .search, .number{
@@ -45,6 +47,8 @@ body {
 .divider {
 	border-left: 1px solid;
 	border-color: #e0e0e0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
