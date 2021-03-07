@@ -12,8 +12,7 @@ body {
 	justify-content: space-around;
 	font-size: 14px;
 	background-color: #f5f5f7;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 .nav-links, .number{
@@ -88,7 +87,7 @@ body {
 .banner {
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
 	background-size: cover;
-	height: 600px;
+    height: 600px;
 	display: flex;
 	justify-content: center;
 }
@@ -130,4 +129,34 @@ body {
 	color: white;
 	border-color: white;
 }
+.banner {
+
+}
+.banner-items {
+	min-width: 90%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.item {
+	top: 520px;
+	background-color: blue;
+	position: relative;
+	padding: 5% 10%;	
+}
+
+.item1 {
+	background-color: #424242;
+}
+
+.item2 {
+	background-color: #237cb0;
+}
+
+.item3 {
+	background-color: #77ceed;
+}
+
 
