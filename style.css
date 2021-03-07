@@ -70,7 +70,7 @@ body {
 	height: 43px;
 }
 
-.nav-buttons button {
+.nav-buttons button, .banner-button {
 	padding: 15px;
 	background: transparent;
 	border: 2px solid transparent;
@@ -114,8 +114,20 @@ body {
 }
 
 .banner-content h1 {
-	font-size: 5rem;
-	letter-spacing: 1rem;
+	margin-top: 80px;
+	font-size: 4.5rem;
+	letter-spacing: 0.8rem;
 	color: white;
+	margin-bottom: 0;
+}
+
+.banner-content h3 {
+	color: white;
+}
+
+.banner-button {
+	margin-top: 50px;
+	color: white;
+	border-color: white;
 }
 
