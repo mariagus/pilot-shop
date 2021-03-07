@@ -5,7 +5,6 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	letter-spacing: 1px;
 }
 
 .top-nav{
@@ -22,9 +21,7 @@ body {
 }
 
 .number {
-	padding-left: 50px;
-	padding-right: 180px;
-	width: 350px;
+	width: 220px;
 }
 
 .nav-links a, .search, .number{
